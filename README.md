@@ -1,6 +1,6 @@
 # MLX90333-logic2-decoder
 
-This is a High-Level decoder for the Logic 2 software that (Saleae)[saleae] is making for their logic analyzers.
+This is a High-Level decoder for the Logic 2 software that [Saleae](https://www.saleae.com/) is making for their logic analyzers.
 
 This is just a personal project that will always be a bit on the sideburner, but I personally use this plugin to decode the magnetic sensor in a Saitec/Logitech (Logitech now owns Saitec) x56 HOTAS joystick and so far I've generally found the library is producing satisfying results regarding reading the data from the sensor inside. More advanced features might come later since right now I just needed the positional data decoded.
 
