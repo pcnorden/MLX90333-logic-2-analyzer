@@ -15,3 +15,9 @@ I've currently just implemented a selection in the menu when changing settings s
 **BEWARE!** This only supports SPI connection to the MLX90333 chip! Saleae's documentation is unfortunately in quite a bad state regarding how to select that the decoder can only be used by a certain input analyzer. If documentation from Saleae gets better I will try to improve the script, if nothing else I will some day just sit down and try to just attack the API and write down what I find in another repo here on github.
 
 Just to be clear about the above sentance since I can come off as quite demeaning, Saleae is a nice company and the Logic 2 software is just excellent every time I've used it, but the only bad part for me is the documentation on the API, everything else is just awesome about the software and the product
+
+# Installation instructions
+
+So, to get the most up-to-date install instructions, I highly recommend going over to Saleae's support page located [here](https://support.saleae.com/extensions/installing-extensions) cause they have a up-to-date guide with (at the time of writing this) very good instructions and screenshots of how to install.
+
+To install, just go to the above website, and scroll down a bit to encounter the "Install Extensions Manually" and skip to step 3 and go from there.
