@@ -1,4 +1,6 @@
-# MLX90333-logic2-decoder
+# MLX90333 Logic 2 analyzer
+
+![image](https://user-images.githubusercontent.com/7767295/121573975-1bdd7b80-ca26-11eb-80f7-3e875ade629b.png)
 
 This is a High-Level decoder for the Logic 2 software that [Saleae](https://www.saleae.com/) is making for their logic analyzers.
 
@@ -6,4 +8,10 @@ This is just a personal project that will always be a bit on the sideburner, but
 
 If you have any need for more features, please open a issue and I will try to actually implement it into the decoder.
 
-**BEWARE!** This only supports SPI connection to the MLX90333 chip! Saleae's documentation is unfortunately in quite a bad state regarding the analog section, so I really didn't want to spend days trying to puzzle together the analog API for Logic 2
+I've currently just implemented a selection in the menu when changing settings so you can toggle between the XYZ bit toggle since I can't reliably understand how the HOTAS joystick is putting it into a certain mode, but just change the settings if need be and it should be good.
+
+![image](https://user-images.githubusercontent.com/7767295/121574488-9908f080-ca26-11eb-920c-322b9aa7ed7f.png)
+
+**BEWARE!** This only supports SPI connection to the MLX90333 chip! Saleae's documentation is unfortunately in quite a bad state regarding how to select that the decoder can only be used by a certain input analyzer. If documentation from Saleae gets better I will try to improve the script, if nothing else I will some day just sit down and try to just attack the API and write down what I find in another repo here on github.
+
+Just to be clear about the above sentance since I can come off as quite demeaning, Saleae is a nice company and the Logic 2 software is just excellent every time I've used it, but the only bad part for me is the documentation on the API, everything else is just awesome about the software and the product
