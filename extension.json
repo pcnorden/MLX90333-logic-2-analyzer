@@ -1,0 +1,13 @@
+{
+  "name": "MLX90333 Position Sensor",
+  "apiVersion": "1.0.0",
+  "author": "pcnorden",
+  "version": "0.0.1",
+  "description": "Parses the SPI data from the MLX90333 Position Sensor made by Melexis",
+  "extensions": {
+    "MLX90333 Position Sensor": {
+      "type": "HighLevelAnalyzer",
+      "entryPoint": "HighLevelAnalyzer.Hla"
+    }
+  }
+}
