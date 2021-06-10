@@ -18,6 +18,6 @@ Just to be clear about the above sentance since I can come off as quite demeanin
 
 # Installation instructions
 
-So, to get the most up-to-date install instructions, I highly recommend going over to Saleae's support page located [here](https://support.saleae.com/extensions/installing-extensions) cause they have a up-to-date guide with (at the time of writing this) very good instructions and screenshots of how to install.
+So, to get the most up-to-date install instructions, I highly recommend going over to Saleae's support page located [here](https://support.saleae.com/extensions/installing-extensions#install-extensions-manually) cause they have a up-to-date guide with (at the time of writing this) very good instructions and screenshots of how to install.
 
 To install, just go to the above website, and scroll down a bit to encounter the "Install Extensions Manually" and skip to step 3 and go from there.
